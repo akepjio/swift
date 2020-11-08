@@ -17,13 +17,20 @@ class Welcome_test extends TestCase
 	}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
 	public function test_index()
-	{ 
+	{
+>>>>>>> feature
 	$this->request('GET', '/welcome');
 	$this->assertResponseCode(200);
 	}
 	
+<<<<<<< HEAD
 =======
+>>>>>>> feature
+=======
+
 >>>>>>> feature
 	public function test_method_404()
 	{
