@@ -16,22 +16,14 @@ class Welcome_test extends TestCase
 		$this->assertContains('<title>Welcome to CodeIgniter</title>', $output);
 	}
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
+
 	public function test_index()
 	{
->>>>>>> feature
 	$this->request('GET', '/welcome');
 	$this->assertResponseCode(200);
 	}
 	
-<<<<<<< HEAD
-=======
->>>>>>> feature
-=======
 
->>>>>>> feature
 	public function test_method_404()
 	{
 		$this->request('GET', 'welcome/method_not_exist');
